@@ -80,7 +80,7 @@ Partial Class Attendance
         '
         'Button9
         '
-        Me.Button9.BackColor = System.Drawing.Color.Red
+        Me.Button9.BackColor = System.Drawing.Color.OrangeRed
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(720, 139)
@@ -92,7 +92,7 @@ Partial Class Attendance
         '
         'Button8
         '
-        Me.Button8.BackColor = System.Drawing.Color.Red
+        Me.Button8.BackColor = System.Drawing.Color.OrangeRed
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(605, 139)
@@ -124,7 +124,7 @@ Partial Class Attendance
         '
         'btnLogo
         '
-        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.BackColor = System.Drawing.Color.OrangeRed
         Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogo.ForeColor = System.Drawing.Color.White
         Me.btnLogo.Location = New System.Drawing.Point(728, 12)
@@ -172,7 +172,7 @@ Partial Class Attendance
         '
         'btnCourse
         '
-        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnCourse.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCourse.ForeColor = System.Drawing.Color.White
         Me.btnCourse.Location = New System.Drawing.Point(2, 303)

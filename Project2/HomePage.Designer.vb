@@ -23,29 +23,29 @@ Partial Class HomePage
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.btnCourse = New System.Windows.Forms.Button()
         Me.btnProfile = New System.Windows.Forms.Button()
-        Me.btnLogo = New System.Windows.Forms.Button()
-        Me.btnAss = New System.Windows.Forms.Button()
-        Me.btnDash = New System.Windows.Forms.Button()
-        Me.lblBirth = New System.Windows.Forms.Label()
-        Me.lblIC = New System.Windows.Forms.Label()
-        Me.btnexit = New System.Windows.Forms.Button()
-        Me.lblCourse = New System.Windows.Forms.Label()
-        Me.lblContact = New System.Windows.Forms.Label()
-        Me.lblEmail = New System.Windows.Forms.Label()
-        Me.lblUser = New System.Windows.Forms.Label()
-        Me.lblName = New System.Windows.Forms.Label()
-        Me.txtName = New System.Windows.Forms.TextBox()
-        Me.txtID = New System.Windows.Forms.TextBox()
-        Me.txtContact = New System.Windows.Forms.TextBox()
-        Me.txtEmail = New System.Windows.Forms.TextBox()
-        Me.txtIC = New System.Windows.Forms.TextBox()
-        Me.comboCourse = New System.Windows.Forms.ComboBox()
-        Me.btnnew = New System.Windows.Forms.Button()
-        Me.btnsave = New System.Windows.Forms.Button()
         Me.btnEdit = New System.Windows.Forms.Button()
         Me.txtDate = New System.Windows.Forms.DateTimePicker()
+        Me.btnsave = New System.Windows.Forms.Button()
+        Me.btnnew = New System.Windows.Forms.Button()
+        Me.comboCourse = New System.Windows.Forms.ComboBox()
+        Me.btnexit = New System.Windows.Forms.Button()
+        Me.txtIC = New System.Windows.Forms.TextBox()
+        Me.txtEmail = New System.Windows.Forms.TextBox()
+        Me.txtContact = New System.Windows.Forms.TextBox()
+        Me.txtID = New System.Windows.Forms.TextBox()
+        Me.txtName = New System.Windows.Forms.TextBox()
+        Me.lblBirth = New System.Windows.Forms.Label()
+        Me.lblName = New System.Windows.Forms.Label()
+        Me.lblIC = New System.Windows.Forms.Label()
+        Me.lblUser = New System.Windows.Forms.Label()
+        Me.lblEmail = New System.Windows.Forms.Label()
+        Me.lblContact = New System.Windows.Forms.Label()
+        Me.lblCourse = New System.Windows.Forms.Label()
+        Me.btnLogo = New System.Windows.Forms.Button()
+        Me.btnDash = New System.Windows.Forms.Button()
+        Me.btnAss = New System.Windows.Forms.Button()
+        Me.btnCourse = New System.Windows.Forms.Button()
         Me.PictureBox1 = New System.Windows.Forms.PictureBox()
         Me.Panel1.SuspendLayout()
         CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -82,21 +82,9 @@ Partial Class HomePage
         Me.Panel1.Size = New System.Drawing.Size(940, 520)
         Me.Panel1.TabIndex = 0
         '
-        'btnCourse
-        '
-        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
-        Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCourse.ForeColor = System.Drawing.Color.White
-        Me.btnCourse.Location = New System.Drawing.Point(0, 295)
-        Me.btnCourse.Name = "btnCourse"
-        Me.btnCourse.Size = New System.Drawing.Size(130, 48)
-        Me.btnCourse.TabIndex = 14
-        Me.btnCourse.Text = "Courses"
-        Me.btnCourse.UseVisualStyleBackColor = False
-        '
         'btnProfile
         '
-        Me.btnProfile.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnProfile.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnProfile.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnProfile.ForeColor = System.Drawing.Color.White
         Me.btnProfile.Location = New System.Drawing.Point(0, 207)
@@ -106,207 +94,9 @@ Partial Class HomePage
         Me.btnProfile.Text = "Profile"
         Me.btnProfile.UseVisualStyleBackColor = False
         '
-        'btnLogo
-        '
-        Me.btnLogo.BackColor = System.Drawing.Color.Red
-        Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLogo.ForeColor = System.Drawing.Color.White
-        Me.btnLogo.Location = New System.Drawing.Point(728, 12)
-        Me.btnLogo.Name = "btnLogo"
-        Me.btnLogo.Size = New System.Drawing.Size(91, 42)
-        Me.btnLogo.TabIndex = 23
-        Me.btnLogo.Text = "Log out"
-        Me.btnLogo.UseVisualStyleBackColor = False
-        '
-        'btnAss
-        '
-        Me.btnAss.BackColor = System.Drawing.Color.OrangeRed
-        Me.btnAss.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnAss.ForeColor = System.Drawing.Color.White
-        Me.btnAss.Location = New System.Drawing.Point(0, 251)
-        Me.btnAss.Name = "btnAss"
-        Me.btnAss.Size = New System.Drawing.Size(130, 47)
-        Me.btnAss.TabIndex = 15
-        Me.btnAss.Text = "Assignments"
-        Me.btnAss.UseVisualStyleBackColor = False
-        '
-        'btnDash
-        '
-        Me.btnDash.BackColor = System.Drawing.Color.OrangeRed
-        Me.btnDash.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnDash.ForeColor = System.Drawing.Color.White
-        Me.btnDash.Location = New System.Drawing.Point(0, 169)
-        Me.btnDash.Name = "btnDash"
-        Me.btnDash.Size = New System.Drawing.Size(130, 44)
-        Me.btnDash.TabIndex = 16
-        Me.btnDash.Text = "Dashboard"
-        Me.btnDash.UseVisualStyleBackColor = False
-        '
-        'lblBirth
-        '
-        Me.lblBirth.AutoSize = True
-        Me.lblBirth.BackColor = System.Drawing.Color.Transparent
-        Me.lblBirth.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblBirth.Location = New System.Drawing.Point(516, 131)
-        Me.lblBirth.Name = "lblBirth"
-        Me.lblBirth.Size = New System.Drawing.Size(98, 20)
-        Me.lblBirth.TabIndex = 25
-        Me.lblBirth.Text = "Day of birth :"
-        '
-        'lblIC
-        '
-        Me.lblIC.AutoSize = True
-        Me.lblIC.BackColor = System.Drawing.Color.Transparent
-        Me.lblIC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblIC.Location = New System.Drawing.Point(516, 176)
-        Me.lblIC.Name = "lblIC"
-        Me.lblIC.Size = New System.Drawing.Size(100, 20)
-        Me.lblIC.TabIndex = 24
-        Me.lblIC.Text = "IC/Passport :"
-        '
-        'btnexit
-        '
-        Me.btnexit.BackColor = System.Drawing.Color.Red
-        Me.btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnexit.ForeColor = System.Drawing.Color.White
-        Me.btnexit.Location = New System.Drawing.Point(726, 421)
-        Me.btnexit.Name = "btnexit"
-        Me.btnexit.Size = New System.Drawing.Size(72, 35)
-        Me.btnexit.TabIndex = 22
-        Me.btnexit.Text = "Exit"
-        Me.btnexit.UseVisualStyleBackColor = False
-        '
-        'lblCourse
-        '
-        Me.lblCourse.AutoSize = True
-        Me.lblCourse.BackColor = System.Drawing.Color.Transparent
-        Me.lblCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblCourse.Location = New System.Drawing.Point(192, 320)
-        Me.lblCourse.Name = "lblCourse"
-        Me.lblCourse.Size = New System.Drawing.Size(76, 20)
-        Me.lblCourse.TabIndex = 21
-        Me.lblCourse.Text = "Courses :"
-        '
-        'lblContact
-        '
-        Me.lblContact.AutoSize = True
-        Me.lblContact.BackColor = System.Drawing.Color.Transparent
-        Me.lblContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblContact.Location = New System.Drawing.Point(192, 229)
-        Me.lblContact.Name = "lblContact"
-        Me.lblContact.Size = New System.Drawing.Size(73, 20)
-        Me.lblContact.TabIndex = 20
-        Me.lblContact.Text = "Contact :"
-        '
-        'lblEmail
-        '
-        Me.lblEmail.AutoSize = True
-        Me.lblEmail.BackColor = System.Drawing.Color.Transparent
-        Me.lblEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblEmail.Location = New System.Drawing.Point(192, 274)
-        Me.lblEmail.Name = "lblEmail"
-        Me.lblEmail.Size = New System.Drawing.Size(56, 20)
-        Me.lblEmail.TabIndex = 19
-        Me.lblEmail.Text = "Email :"
-        '
-        'lblUser
-        '
-        Me.lblUser.AutoSize = True
-        Me.lblUser.BackColor = System.Drawing.Color.Transparent
-        Me.lblUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblUser.Location = New System.Drawing.Point(192, 182)
-        Me.lblUser.Name = "lblUser"
-        Me.lblUser.Size = New System.Drawing.Size(72, 20)
-        Me.lblUser.TabIndex = 18
-        Me.lblUser.Text = "User ID :"
-        '
-        'lblName
-        '
-        Me.lblName.AutoSize = True
-        Me.lblName.BackColor = System.Drawing.Color.Transparent
-        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.lblName.Location = New System.Drawing.Point(192, 134)
-        Me.lblName.Name = "lblName"
-        Me.lblName.Size = New System.Drawing.Size(59, 20)
-        Me.lblName.TabIndex = 17
-        Me.lblName.Text = "Name :"
-        '
-        'txtName
-        '
-        Me.txtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtName.Location = New System.Drawing.Point(300, 128)
-        Me.txtName.Name = "txtName"
-        Me.txtName.Size = New System.Drawing.Size(173, 26)
-        Me.txtName.TabIndex = 26
-        '
-        'txtID
-        '
-        Me.txtID.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtID.Location = New System.Drawing.Point(300, 176)
-        Me.txtID.Name = "txtID"
-        Me.txtID.Size = New System.Drawing.Size(173, 26)
-        Me.txtID.TabIndex = 26
-        '
-        'txtContact
-        '
-        Me.txtContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtContact.Location = New System.Drawing.Point(300, 223)
-        Me.txtContact.Name = "txtContact"
-        Me.txtContact.Size = New System.Drawing.Size(173, 26)
-        Me.txtContact.TabIndex = 26
-        '
-        'txtEmail
-        '
-        Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtEmail.Location = New System.Drawing.Point(300, 266)
-        Me.txtEmail.Name = "txtEmail"
-        Me.txtEmail.Size = New System.Drawing.Size(173, 26)
-        Me.txtEmail.TabIndex = 26
-        '
-        'txtIC
-        '
-        Me.txtIC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.txtIC.Location = New System.Drawing.Point(649, 173)
-        Me.txtIC.Name = "txtIC"
-        Me.txtIC.Size = New System.Drawing.Size(173, 26)
-        Me.txtIC.TabIndex = 26
-        '
-        'comboCourse
-        '
-        Me.comboCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.comboCourse.FormattingEnabled = True
-        Me.comboCourse.Location = New System.Drawing.Point(300, 310)
-        Me.comboCourse.Name = "comboCourse"
-        Me.comboCourse.Size = New System.Drawing.Size(173, 28)
-        Me.comboCourse.TabIndex = 27
-        '
-        'btnnew
-        '
-        Me.btnnew.BackColor = System.Drawing.Color.Red
-        Me.btnnew.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnnew.ForeColor = System.Drawing.Color.White
-        Me.btnnew.Location = New System.Drawing.Point(526, 421)
-        Me.btnnew.Name = "btnnew"
-        Me.btnnew.Size = New System.Drawing.Size(72, 35)
-        Me.btnnew.TabIndex = 22
-        Me.btnnew.Text = "New"
-        Me.btnnew.UseVisualStyleBackColor = False
-        '
-        'btnsave
-        '
-        Me.btnsave.BackColor = System.Drawing.Color.Red
-        Me.btnsave.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnsave.ForeColor = System.Drawing.Color.White
-        Me.btnsave.Location = New System.Drawing.Point(593, 421)
-        Me.btnsave.Name = "btnsave"
-        Me.btnsave.Size = New System.Drawing.Size(72, 35)
-        Me.btnsave.TabIndex = 22
-        Me.btnsave.Text = "Save"
-        Me.btnsave.UseVisualStyleBackColor = False
-        '
         'btnEdit
         '
-        Me.btnEdit.BackColor = System.Drawing.Color.Red
+        Me.btnEdit.BackColor = System.Drawing.Color.OrangeRed
         Me.btnEdit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnEdit.ForeColor = System.Drawing.Color.White
         Me.btnEdit.Location = New System.Drawing.Point(655, 421)
@@ -325,6 +115,216 @@ Partial Class HomePage
         Me.txtDate.Name = "txtDate"
         Me.txtDate.Size = New System.Drawing.Size(173, 26)
         Me.txtDate.TabIndex = 28
+        '
+        'btnsave
+        '
+        Me.btnsave.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnsave.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnsave.ForeColor = System.Drawing.Color.White
+        Me.btnsave.Location = New System.Drawing.Point(593, 421)
+        Me.btnsave.Name = "btnsave"
+        Me.btnsave.Size = New System.Drawing.Size(72, 35)
+        Me.btnsave.TabIndex = 22
+        Me.btnsave.Text = "Save"
+        Me.btnsave.UseVisualStyleBackColor = False
+        '
+        'btnnew
+        '
+        Me.btnnew.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnnew.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnnew.ForeColor = System.Drawing.Color.White
+        Me.btnnew.Location = New System.Drawing.Point(526, 421)
+        Me.btnnew.Name = "btnnew"
+        Me.btnnew.Size = New System.Drawing.Size(72, 35)
+        Me.btnnew.TabIndex = 22
+        Me.btnnew.Text = "New"
+        Me.btnnew.UseVisualStyleBackColor = False
+        '
+        'comboCourse
+        '
+        Me.comboCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.comboCourse.FormattingEnabled = True
+        Me.comboCourse.Location = New System.Drawing.Point(300, 310)
+        Me.comboCourse.Name = "comboCourse"
+        Me.comboCourse.Size = New System.Drawing.Size(173, 28)
+        Me.comboCourse.TabIndex = 27
+        '
+        'btnexit
+        '
+        Me.btnexit.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnexit.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnexit.ForeColor = System.Drawing.Color.White
+        Me.btnexit.Location = New System.Drawing.Point(726, 421)
+        Me.btnexit.Name = "btnexit"
+        Me.btnexit.Size = New System.Drawing.Size(72, 35)
+        Me.btnexit.TabIndex = 22
+        Me.btnexit.Text = "Exit"
+        Me.btnexit.UseVisualStyleBackColor = False
+        '
+        'txtIC
+        '
+        Me.txtIC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtIC.Location = New System.Drawing.Point(649, 173)
+        Me.txtIC.Name = "txtIC"
+        Me.txtIC.Size = New System.Drawing.Size(173, 26)
+        Me.txtIC.TabIndex = 26
+        '
+        'txtEmail
+        '
+        Me.txtEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtEmail.Location = New System.Drawing.Point(300, 266)
+        Me.txtEmail.Name = "txtEmail"
+        Me.txtEmail.Size = New System.Drawing.Size(173, 26)
+        Me.txtEmail.TabIndex = 26
+        '
+        'txtContact
+        '
+        Me.txtContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtContact.Location = New System.Drawing.Point(300, 223)
+        Me.txtContact.Name = "txtContact"
+        Me.txtContact.Size = New System.Drawing.Size(173, 26)
+        Me.txtContact.TabIndex = 26
+        '
+        'txtID
+        '
+        Me.txtID.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtID.Location = New System.Drawing.Point(300, 176)
+        Me.txtID.Name = "txtID"
+        Me.txtID.Size = New System.Drawing.Size(173, 26)
+        Me.txtID.TabIndex = 26
+        '
+        'txtName
+        '
+        Me.txtName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtName.Location = New System.Drawing.Point(300, 128)
+        Me.txtName.Name = "txtName"
+        Me.txtName.Size = New System.Drawing.Size(173, 26)
+        Me.txtName.TabIndex = 26
+        '
+        'lblBirth
+        '
+        Me.lblBirth.AutoSize = True
+        Me.lblBirth.BackColor = System.Drawing.Color.Transparent
+        Me.lblBirth.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblBirth.Location = New System.Drawing.Point(516, 131)
+        Me.lblBirth.Name = "lblBirth"
+        Me.lblBirth.Size = New System.Drawing.Size(98, 20)
+        Me.lblBirth.TabIndex = 25
+        Me.lblBirth.Text = "Day of birth :"
+        '
+        'lblName
+        '
+        Me.lblName.AutoSize = True
+        Me.lblName.BackColor = System.Drawing.Color.Transparent
+        Me.lblName.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblName.Location = New System.Drawing.Point(192, 134)
+        Me.lblName.Name = "lblName"
+        Me.lblName.Size = New System.Drawing.Size(59, 20)
+        Me.lblName.TabIndex = 17
+        Me.lblName.Text = "Name :"
+        '
+        'lblIC
+        '
+        Me.lblIC.AutoSize = True
+        Me.lblIC.BackColor = System.Drawing.Color.Transparent
+        Me.lblIC.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblIC.Location = New System.Drawing.Point(516, 176)
+        Me.lblIC.Name = "lblIC"
+        Me.lblIC.Size = New System.Drawing.Size(100, 20)
+        Me.lblIC.TabIndex = 24
+        Me.lblIC.Text = "IC/Passport :"
+        '
+        'lblUser
+        '
+        Me.lblUser.AutoSize = True
+        Me.lblUser.BackColor = System.Drawing.Color.Transparent
+        Me.lblUser.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblUser.Location = New System.Drawing.Point(192, 182)
+        Me.lblUser.Name = "lblUser"
+        Me.lblUser.Size = New System.Drawing.Size(72, 20)
+        Me.lblUser.TabIndex = 18
+        Me.lblUser.Text = "User ID :"
+        '
+        'lblEmail
+        '
+        Me.lblEmail.AutoSize = True
+        Me.lblEmail.BackColor = System.Drawing.Color.Transparent
+        Me.lblEmail.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblEmail.Location = New System.Drawing.Point(192, 274)
+        Me.lblEmail.Name = "lblEmail"
+        Me.lblEmail.Size = New System.Drawing.Size(56, 20)
+        Me.lblEmail.TabIndex = 19
+        Me.lblEmail.Text = "Email :"
+        '
+        'lblContact
+        '
+        Me.lblContact.AutoSize = True
+        Me.lblContact.BackColor = System.Drawing.Color.Transparent
+        Me.lblContact.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblContact.Location = New System.Drawing.Point(192, 229)
+        Me.lblContact.Name = "lblContact"
+        Me.lblContact.Size = New System.Drawing.Size(73, 20)
+        Me.lblContact.TabIndex = 20
+        Me.lblContact.Text = "Contact :"
+        '
+        'lblCourse
+        '
+        Me.lblCourse.AutoSize = True
+        Me.lblCourse.BackColor = System.Drawing.Color.Transparent
+        Me.lblCourse.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblCourse.Location = New System.Drawing.Point(192, 320)
+        Me.lblCourse.Name = "lblCourse"
+        Me.lblCourse.Size = New System.Drawing.Size(76, 20)
+        Me.lblCourse.TabIndex = 21
+        Me.lblCourse.Text = "Courses :"
+        '
+        'btnLogo
+        '
+        Me.btnLogo.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogo.ForeColor = System.Drawing.Color.White
+        Me.btnLogo.Location = New System.Drawing.Point(728, 12)
+        Me.btnLogo.Name = "btnLogo"
+        Me.btnLogo.Size = New System.Drawing.Size(91, 42)
+        Me.btnLogo.TabIndex = 23
+        Me.btnLogo.Text = "Log out"
+        Me.btnLogo.UseVisualStyleBackColor = False
+        '
+        'btnDash
+        '
+        Me.btnDash.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnDash.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDash.ForeColor = System.Drawing.Color.White
+        Me.btnDash.Location = New System.Drawing.Point(0, 169)
+        Me.btnDash.Name = "btnDash"
+        Me.btnDash.Size = New System.Drawing.Size(130, 44)
+        Me.btnDash.TabIndex = 16
+        Me.btnDash.Text = "Dashboard"
+        Me.btnDash.UseVisualStyleBackColor = False
+        '
+        'btnAss
+        '
+        Me.btnAss.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnAss.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAss.ForeColor = System.Drawing.Color.White
+        Me.btnAss.Location = New System.Drawing.Point(0, 251)
+        Me.btnAss.Name = "btnAss"
+        Me.btnAss.Size = New System.Drawing.Size(130, 47)
+        Me.btnAss.TabIndex = 15
+        Me.btnAss.Text = "Assignments"
+        Me.btnAss.UseVisualStyleBackColor = False
+        '
+        'btnCourse
+        '
+        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCourse.ForeColor = System.Drawing.Color.White
+        Me.btnCourse.Location = New System.Drawing.Point(0, 295)
+        Me.btnCourse.Name = "btnCourse"
+        Me.btnCourse.Size = New System.Drawing.Size(130, 48)
+        Me.btnCourse.TabIndex = 14
+        Me.btnCourse.Text = "Courses"
+        Me.btnCourse.UseVisualStyleBackColor = False
         '
         'PictureBox1
         '

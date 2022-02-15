@@ -113,7 +113,7 @@ Partial Class Dashboardform
         '
         'btnDash
         '
-        Me.btnDash.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnDash.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnDash.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnDash.ForeColor = System.Drawing.Color.White
         Me.btnDash.Location = New System.Drawing.Point(0, 169)
@@ -161,7 +161,7 @@ Partial Class Dashboardform
         '
         'btnLogo
         '
-        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.BackColor = System.Drawing.Color.OrangeRed
         Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogo.ForeColor = System.Drawing.Color.White
         Me.btnLogo.Location = New System.Drawing.Point(728, 12)

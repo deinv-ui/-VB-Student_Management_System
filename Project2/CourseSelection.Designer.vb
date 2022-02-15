@@ -52,7 +52,7 @@ Partial Class CourseSelection
         '
         'Button9
         '
-        Me.Button9.BackColor = System.Drawing.Color.Red
+        Me.Button9.BackColor = System.Drawing.Color.OrangeRed
         Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button9.ForeColor = System.Drawing.Color.White
         Me.Button9.Location = New System.Drawing.Point(597, 412)
@@ -64,7 +64,7 @@ Partial Class CourseSelection
         '
         'Button8
         '
-        Me.Button8.BackColor = System.Drawing.Color.Red
+        Me.Button8.BackColor = System.Drawing.Color.OrangeRed
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
         Me.Button8.Location = New System.Drawing.Point(711, 133)
@@ -115,7 +115,7 @@ Partial Class CourseSelection
         '
         'Button5
         '
-        Me.Button5.BackColor = System.Drawing.Color.Red
+        Me.Button5.BackColor = System.Drawing.Color.OrangeRed
         Me.Button5.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button5.ForeColor = System.Drawing.Color.White
         Me.Button5.Location = New System.Drawing.Point(711, 412)
@@ -173,7 +173,7 @@ Partial Class CourseSelection
         '
         'btnCourse
         '
-        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnCourse.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnCourse.ForeColor = System.Drawing.Color.White
         Me.btnCourse.Location = New System.Drawing.Point(2, 303)
@@ -185,7 +185,7 @@ Partial Class CourseSelection
         '
         'btnLogo
         '
-        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.BackColor = System.Drawing.Color.OrangeRed
         Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogo.ForeColor = System.Drawing.Color.White
         Me.btnLogo.Location = New System.Drawing.Point(728, 12)

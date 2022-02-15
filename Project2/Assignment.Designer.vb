@@ -87,7 +87,7 @@ Partial Class Assignment
         '
         'btnSubmit
         '
-        Me.btnSubmit.BackColor = System.Drawing.Color.Red
+        Me.btnSubmit.BackColor = System.Drawing.Color.OrangeRed
         Me.btnSubmit.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnSubmit.ForeColor = System.Drawing.Color.White
         Me.btnSubmit.Location = New System.Drawing.Point(676, 374)
@@ -143,7 +143,7 @@ Partial Class Assignment
         '
         'btnAss
         '
-        Me.btnAss.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnAss.BackColor = System.Drawing.Color.FromArgb(CType(CType(255, Byte), Integer), CType(CType(128, Byte), Integer), CType(CType(0, Byte), Integer))
         Me.btnAss.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnAss.ForeColor = System.Drawing.Color.White
         Me.btnAss.Location = New System.Drawing.Point(0, 251)
@@ -179,7 +179,7 @@ Partial Class Assignment
         '
         'btnLogo
         '
-        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.BackColor = System.Drawing.Color.OrangeRed
         Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.btnLogo.ForeColor = System.Drawing.Color.White
         Me.btnLogo.Location = New System.Drawing.Point(728, 12)
