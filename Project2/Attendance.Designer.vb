@@ -22,105 +22,33 @@ Partial Class Attendance
     'Do not modify it using the code editor.
     <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
         Me.DataGridView1 = New System.Windows.Forms.DataGridView()
         Me.Column1 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column2 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column3 = New System.Windows.Forms.DataGridViewTextBoxColumn()
         Me.Column4 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.Column5 = New System.Windows.Forms.DataGridViewTextBoxColumn()
-        Me.TextBox1 = New System.Windows.Forms.TextBox()
+        Me.txtAtten = New System.Windows.Forms.TextBox()
+        Me.Button9 = New System.Windows.Forms.Button()
         Me.Button8 = New System.Windows.Forms.Button()
-        Me.Label1 = New System.Windows.Forms.Label()
-        Me.Panel1.SuspendLayout()
+        Me.lblAtten = New System.Windows.Forms.Label()
+        Me.PictureBox2 = New System.Windows.Forms.PictureBox()
+        Me.btnLogo = New System.Windows.Forms.Button()
+        Me.btnAss = New System.Windows.Forms.Button()
+        Me.btnProfile = New System.Windows.Forms.Button()
+        Me.btnDash = New System.Windows.Forms.Button()
+        Me.btnCourse = New System.Windows.Forms.Button()
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).BeginInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
-        '
-        'Panel1
-        '
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Location = New System.Drawing.Point(-35, 1)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(959, 74)
-        Me.Panel1.TabIndex = 57
-        '
-        'Button2
-        '
-        Me.Button2.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button2.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(356, 24)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(136, 50)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Courses"
-        Me.Button2.UseVisualStyleBackColor = False
-        '
-        'Button1
-        '
-        Me.Button1.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button1.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(70, 24)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(114, 51)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Profile"
-        Me.Button1.UseVisualStyleBackColor = False
-        '
-        'Button6
-        '
-        Me.Button6.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(751, 44)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(91, 31)
-        Me.Button6.TabIndex = 23
-        Me.Button6.Text = "Log out"
-        Me.Button6.UseVisualStyleBackColor = False
-        '
-        'Button3
-        '
-        Me.Button3.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button3.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(179, 24)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(180, 51)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "Assignments"
-        Me.Button3.UseVisualStyleBackColor = False
-        '
-        'Button4
-        '
-        Me.Button4.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button4.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(487, 25)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(162, 50)
-        Me.Button4.TabIndex = 16
-        Me.Button4.Text = "Dashboard"
-        Me.Button4.UseVisualStyleBackColor = False
         '
         'DataGridView1
         '
         Me.DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
-        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4, Me.Column5})
-        Me.DataGridView1.Location = New System.Drawing.Point(39, 190)
+        Me.DataGridView1.Columns.AddRange(New System.Windows.Forms.DataGridViewColumn() {Me.Column1, Me.Column2, Me.Column3, Me.Column4})
+        Me.DataGridView1.Location = New System.Drawing.Point(217, 188)
         Me.DataGridView1.Name = "DataGridView1"
-        Me.DataGridView1.Size = New System.Drawing.Size(725, 243)
-        Me.DataGridView1.TabIndex = 67
+        Me.DataGridView1.Size = New System.Drawing.Size(602, 250)
+        Me.DataGridView1.TabIndex = 80
         '
         'Column1
         '
@@ -142,73 +70,156 @@ Partial Class Attendance
         Me.Column4.HeaderText = "Column4"
         Me.Column4.Name = "Column4"
         '
-        'Column5
+        'txtAtten
         '
-        Me.Column5.HeaderText = "Column5"
-        Me.Column5.Name = "Column5"
+        Me.txtAtten.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.txtAtten.Location = New System.Drawing.Point(217, 142)
+        Me.txtAtten.Name = "txtAtten"
+        Me.txtAtten.Size = New System.Drawing.Size(382, 29)
+        Me.txtAtten.TabIndex = 79
         '
-        'TextBox1
+        'Button9
         '
-        Me.TextBox1.Font = New System.Drawing.Font("Microsoft Sans Serif", 14.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.TextBox1.Location = New System.Drawing.Point(35, 133)
-        Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(615, 29)
-        Me.TextBox1.TabIndex = 70
+        Me.Button9.BackColor = System.Drawing.Color.Red
+        Me.Button9.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button9.ForeColor = System.Drawing.Color.White
+        Me.Button9.Location = New System.Drawing.Point(720, 139)
+        Me.Button9.Name = "Button9"
+        Me.Button9.Size = New System.Drawing.Size(108, 38)
+        Me.Button9.TabIndex = 78
+        Me.Button9.Text = "List All"
+        Me.Button9.UseVisualStyleBackColor = False
         '
         'Button8
         '
-        Me.Button8.BackColor = System.Drawing.Color.OrangeRed
+        Me.Button8.BackColor = System.Drawing.Color.Red
         Me.Button8.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
         Me.Button8.ForeColor = System.Drawing.Color.White
-        Me.Button8.Location = New System.Drawing.Point(656, 129)
+        Me.Button8.Location = New System.Drawing.Point(605, 139)
         Me.Button8.Name = "Button8"
         Me.Button8.Size = New System.Drawing.Size(108, 38)
-        Me.Button8.TabIndex = 69
+        Me.Button8.TabIndex = 76
         Me.Button8.Text = "Search"
         Me.Button8.UseVisualStyleBackColor = False
         '
-        'Label1
+        'lblAtten
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Arial", 12.0!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(31, 106)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(96, 19)
-        Me.Label1.TabIndex = 68
-        Me.Label1.Text = "Attendance"
+        Me.lblAtten.AutoSize = True
+        Me.lblAtten.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblAtten.Location = New System.Drawing.Point(213, 105)
+        Me.lblAtten.Name = "lblAtten"
+        Me.lblAtten.Size = New System.Drawing.Size(126, 24)
+        Me.lblAtten.TabIndex = 75
+        Me.lblAtten.Text = "Attendance"
+        '
+        'PictureBox2
+        '
+        Me.PictureBox2.Image = Global.Project2.My.Resources.Resources._4829769
+        Me.PictureBox2.Location = New System.Drawing.Point(-317, -333)
+        Me.PictureBox2.Name = "PictureBox2"
+        Me.PictureBox2.Size = New System.Drawing.Size(1540, 910)
+        Me.PictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox2.TabIndex = 81
+        Me.PictureBox2.TabStop = False
+        '
+        'btnLogo
+        '
+        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogo.ForeColor = System.Drawing.Color.White
+        Me.btnLogo.Location = New System.Drawing.Point(728, 12)
+        Me.btnLogo.Name = "btnLogo"
+        Me.btnLogo.Size = New System.Drawing.Size(91, 42)
+        Me.btnLogo.TabIndex = 86
+        Me.btnLogo.Text = "Log out"
+        Me.btnLogo.UseVisualStyleBackColor = False
+        '
+        'btnAss
+        '
+        Me.btnAss.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnAss.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAss.ForeColor = System.Drawing.Color.White
+        Me.btnAss.Location = New System.Drawing.Point(2, 259)
+        Me.btnAss.Name = "btnAss"
+        Me.btnAss.Size = New System.Drawing.Size(130, 47)
+        Me.btnAss.TabIndex = 84
+        Me.btnAss.Text = "Assignments"
+        Me.btnAss.UseVisualStyleBackColor = False
+        '
+        'btnProfile
+        '
+        Me.btnProfile.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnProfile.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProfile.ForeColor = System.Drawing.Color.White
+        Me.btnProfile.Location = New System.Drawing.Point(2, 215)
+        Me.btnProfile.Name = "btnProfile"
+        Me.btnProfile.Size = New System.Drawing.Size(130, 45)
+        Me.btnProfile.TabIndex = 82
+        Me.btnProfile.Text = "Profile"
+        Me.btnProfile.UseVisualStyleBackColor = False
+        '
+        'btnDash
+        '
+        Me.btnDash.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnDash.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDash.ForeColor = System.Drawing.Color.White
+        Me.btnDash.Location = New System.Drawing.Point(2, 177)
+        Me.btnDash.Name = "btnDash"
+        Me.btnDash.Size = New System.Drawing.Size(130, 44)
+        Me.btnDash.TabIndex = 85
+        Me.btnDash.Text = "Dashboard"
+        Me.btnDash.UseVisualStyleBackColor = False
+        '
+        'btnCourse
+        '
+        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCourse.ForeColor = System.Drawing.Color.White
+        Me.btnCourse.Location = New System.Drawing.Point(2, 303)
+        Me.btnCourse.Name = "btnCourse"
+        Me.btnCourse.Size = New System.Drawing.Size(146, 48)
+        Me.btnCourse.TabIndex = 83
+        Me.btnCourse.Text = "Courses"
+        Me.btnCourse.UseVisualStyleBackColor = False
         '
         'Attendance
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(840, 487)
-        Me.Controls.Add(Me.TextBox1)
-        Me.Controls.Add(Me.Button8)
-        Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.DataGridView1)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.txtAtten)
+        Me.Controls.Add(Me.Button9)
+        Me.Controls.Add(Me.Button8)
+        Me.Controls.Add(Me.lblAtten)
+        Me.Controls.Add(Me.btnLogo)
+        Me.Controls.Add(Me.btnAss)
+        Me.Controls.Add(Me.btnProfile)
+        Me.Controls.Add(Me.btnDash)
+        Me.Controls.Add(Me.btnCourse)
+        Me.Controls.Add(Me.PictureBox2)
         Me.Name = "Attendance"
         Me.Text = "Attendance"
-        Me.Panel1.ResumeLayout(False)
         CType(Me.DataGridView1, System.ComponentModel.ISupportInitialize).EndInit()
+        CType(Me.PictureBox2, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
     Friend WithEvents DataGridView1 As DataGridView
     Friend WithEvents Column1 As DataGridViewTextBoxColumn
     Friend WithEvents Column2 As DataGridViewTextBoxColumn
     Friend WithEvents Column3 As DataGridViewTextBoxColumn
     Friend WithEvents Column4 As DataGridViewTextBoxColumn
-    Friend WithEvents Column5 As DataGridViewTextBoxColumn
-    Friend WithEvents TextBox1 As TextBox
+    Friend WithEvents txtAtten As TextBox
+    Friend WithEvents Button9 As Button
     Friend WithEvents Button8 As Button
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblAtten As Label
+    Friend WithEvents PictureBox2 As PictureBox
+    Friend WithEvents btnLogo As Button
+    Friend WithEvents btnAss As Button
+    Friend WithEvents btnProfile As Button
+    Friend WithEvents btnDash As Button
+    Friend WithEvents btnCourse As Button
 End Class

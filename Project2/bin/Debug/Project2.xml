@@ -22,7 +22,27 @@ Project2
   resource lookups using this strongly typed resource class.
 </summary>
 </member>
+<member name="P:Project2.My.Resources.Resources._1809_sm002_004_TS_m000_c5_online_education_isometric">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project2.My.Resources.Resources._2350">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project2.My.Resources.Resources._4829769">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
 <member name="P:Project2.My.Resources.Resources._5293">
+<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
+</member>
+<member name="P:Project2.My.Resources.Resources.air_neon_frame_template_23_2148775653">
 <summary>
   Looks up a localized resource of type System.Drawing.Bitmap.
 </summary>

@@ -23,185 +23,191 @@ Partial Class Dashboardform
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.ListBox3 = New System.Windows.Forms.ListBox()
-        Me.Label3 = New System.Windows.Forms.Label()
+        Me.lblFee = New System.Windows.Forms.Label()
         Me.ListBox2 = New System.Windows.Forms.ListBox()
         Me.ListBox1 = New System.Windows.Forms.ListBox()
-        Me.Label2 = New System.Windows.Forms.Label()
-        Me.Label1 = New System.Windows.Forms.Label()
+        Me.lblActivities = New System.Windows.Forms.Label()
+        Me.lblNotice = New System.Windows.Forms.Label()
         Me.MonthCalendar1 = New System.Windows.Forms.MonthCalendar()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.Button2 = New System.Windows.Forms.Button()
-        Me.Button1 = New System.Windows.Forms.Button()
-        Me.Button6 = New System.Windows.Forms.Button()
-        Me.Button3 = New System.Windows.Forms.Button()
-        Me.Button4 = New System.Windows.Forms.Button()
-        Me.Panel1.SuspendLayout()
+        Me.PictureBox1 = New System.Windows.Forms.PictureBox()
+        Me.btnDash = New System.Windows.Forms.Button()
+        Me.btnAss = New System.Windows.Forms.Button()
+        Me.btnCourse = New System.Windows.Forms.Button()
+        Me.btnProfile = New System.Windows.Forms.Button()
+        Me.btnLogo = New System.Windows.Forms.Button()
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
         'ListBox3
         '
         Me.ListBox3.FormattingEnabled = True
-        Me.ListBox3.Location = New System.Drawing.Point(545, 343)
+        Me.ListBox3.Location = New System.Drawing.Point(236, 251)
         Me.ListBox3.Name = "ListBox3"
-        Me.ListBox3.Size = New System.Drawing.Size(223, 95)
+        Me.ListBox3.Size = New System.Drawing.Size(255, 147)
         Me.ListBox3.TabIndex = 53
         '
-        'Label3
+        'lblFee
         '
-        Me.Label3.AutoSize = True
-        Me.Label3.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label3.Location = New System.Drawing.Point(540, 319)
-        Me.Label3.Name = "Label3"
-        Me.Label3.Size = New System.Drawing.Size(127, 25)
-        Me.Label3.TabIndex = 52
-        Me.Label3.Text = "Unpaid fees"
+        Me.lblFee.AutoSize = True
+        Me.lblFee.BackColor = System.Drawing.Color.Transparent
+        Me.lblFee.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblFee.Location = New System.Drawing.Point(238, 228)
+        Me.lblFee.Name = "lblFee"
+        Me.lblFee.Size = New System.Drawing.Size(95, 20)
+        Me.lblFee.TabIndex = 52
+        Me.lblFee.Text = "Unpaid fees"
         '
         'ListBox2
         '
         Me.ListBox2.FormattingEnabled = True
-        Me.ListBox2.Location = New System.Drawing.Point(289, 148)
+        Me.ListBox2.Location = New System.Drawing.Point(596, 308)
         Me.ListBox2.Name = "ListBox2"
-        Me.ListBox2.Size = New System.Drawing.Size(223, 290)
+        Me.ListBox2.Size = New System.Drawing.Size(222, 108)
         Me.ListBox2.TabIndex = 51
         '
         'ListBox1
         '
         Me.ListBox1.FormattingEnabled = True
-        Me.ListBox1.Location = New System.Drawing.Point(43, 148)
+        Me.ListBox1.Location = New System.Drawing.Point(236, 99)
         Me.ListBox1.Name = "ListBox1"
-        Me.ListBox1.Size = New System.Drawing.Size(223, 290)
+        Me.ListBox1.Size = New System.Drawing.Size(255, 69)
         Me.ListBox1.TabIndex = 50
         '
-        'Label2
+        'lblActivities
         '
-        Me.Label2.AutoSize = True
-        Me.Label2.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label2.Location = New System.Drawing.Point(284, 120)
-        Me.Label2.Name = "Label2"
-        Me.Label2.Size = New System.Drawing.Size(170, 25)
-        Me.Label2.TabIndex = 49
-        Me.Label2.Text = "Recent activities"
+        Me.lblActivities.AutoSize = True
+        Me.lblActivities.BackColor = System.Drawing.Color.Transparent
+        Me.lblActivities.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblActivities.Location = New System.Drawing.Point(597, 282)
+        Me.lblActivities.Name = "lblActivities"
+        Me.lblActivities.Size = New System.Drawing.Size(125, 20)
+        Me.lblActivities.TabIndex = 49
+        Me.lblActivities.Text = "Recent activities"
         '
-        'Label1
+        'lblNotice
         '
-        Me.Label1.AutoSize = True
-        Me.Label1.Font = New System.Drawing.Font("Microsoft Sans Serif", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Label1.Location = New System.Drawing.Point(44, 120)
-        Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(134, 25)
-        Me.Label1.TabIndex = 48
-        Me.Label1.Text = "Notice board"
+        Me.lblNotice.AutoSize = True
+        Me.lblNotice.BackColor = System.Drawing.Color.Transparent
+        Me.lblNotice.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.lblNotice.Location = New System.Drawing.Point(237, 73)
+        Me.lblNotice.Name = "lblNotice"
+        Me.lblNotice.Size = New System.Drawing.Size(99, 20)
+        Me.lblNotice.TabIndex = 48
+        Me.lblNotice.Text = "Notice board"
         '
         'MonthCalendar1
         '
-        Me.MonthCalendar1.Location = New System.Drawing.Point(545, 148)
+        Me.MonthCalendar1.Location = New System.Drawing.Point(601, 99)
         Me.MonthCalendar1.Name = "MonthCalendar1"
         Me.MonthCalendar1.TabIndex = 47
         '
-        'Panel1
+        'PictureBox1
         '
-        Me.Panel1.Controls.Add(Me.Button2)
-        Me.Panel1.Controls.Add(Me.Button1)
-        Me.Panel1.Controls.Add(Me.Button6)
-        Me.Panel1.Controls.Add(Me.Button3)
-        Me.Panel1.Controls.Add(Me.Button4)
-        Me.Panel1.Location = New System.Drawing.Point(-28, 0)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(959, 74)
-        Me.Panel1.TabIndex = 56
+        Me.PictureBox1.Image = Global.Project2.My.Resources.Resources._4829769
+        Me.PictureBox1.Location = New System.Drawing.Point(-317, -333)
+        Me.PictureBox1.Name = "PictureBox1"
+        Me.PictureBox1.Size = New System.Drawing.Size(1540, 910)
+        Me.PictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom
+        Me.PictureBox1.TabIndex = 59
+        Me.PictureBox1.TabStop = False
         '
-        'Button2
+        'btnDash
         '
-        Me.Button2.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button2.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button2.ForeColor = System.Drawing.Color.White
-        Me.Button2.Location = New System.Drawing.Point(356, 24)
-        Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(136, 50)
-        Me.Button2.TabIndex = 14
-        Me.Button2.Text = "Courses"
-        Me.Button2.UseVisualStyleBackColor = False
+        Me.btnDash.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnDash.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnDash.ForeColor = System.Drawing.Color.White
+        Me.btnDash.Location = New System.Drawing.Point(0, 169)
+        Me.btnDash.Name = "btnDash"
+        Me.btnDash.Size = New System.Drawing.Size(146, 44)
+        Me.btnDash.TabIndex = 63
+        Me.btnDash.Text = "Dashboard"
+        Me.btnDash.UseVisualStyleBackColor = False
         '
-        'Button1
+        'btnAss
         '
-        Me.Button1.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button1.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(70, 24)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(114, 51)
-        Me.Button1.TabIndex = 13
-        Me.Button1.Text = "Profile"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.btnAss.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnAss.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnAss.ForeColor = System.Drawing.Color.White
+        Me.btnAss.Location = New System.Drawing.Point(0, 251)
+        Me.btnAss.Name = "btnAss"
+        Me.btnAss.Size = New System.Drawing.Size(130, 47)
+        Me.btnAss.TabIndex = 62
+        Me.btnAss.Text = "Assignments"
+        Me.btnAss.UseVisualStyleBackColor = False
         '
-        'Button6
+        'btnCourse
         '
-        Me.Button6.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button6.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button6.ForeColor = System.Drawing.Color.White
-        Me.Button6.Location = New System.Drawing.Point(751, 44)
-        Me.Button6.Name = "Button6"
-        Me.Button6.Size = New System.Drawing.Size(91, 31)
-        Me.Button6.TabIndex = 23
-        Me.Button6.Text = "Log out"
-        Me.Button6.UseVisualStyleBackColor = False
+        Me.btnCourse.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnCourse.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnCourse.ForeColor = System.Drawing.Color.White
+        Me.btnCourse.Location = New System.Drawing.Point(0, 295)
+        Me.btnCourse.Name = "btnCourse"
+        Me.btnCourse.Size = New System.Drawing.Size(130, 48)
+        Me.btnCourse.TabIndex = 61
+        Me.btnCourse.Text = "Courses"
+        Me.btnCourse.UseVisualStyleBackColor = False
         '
-        'Button3
+        'btnProfile
         '
-        Me.Button3.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button3.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button3.ForeColor = System.Drawing.Color.White
-        Me.Button3.Location = New System.Drawing.Point(179, 24)
-        Me.Button3.Name = "Button3"
-        Me.Button3.Size = New System.Drawing.Size(180, 51)
-        Me.Button3.TabIndex = 15
-        Me.Button3.Text = "Assignments"
-        Me.Button3.UseVisualStyleBackColor = False
+        Me.btnProfile.BackColor = System.Drawing.Color.OrangeRed
+        Me.btnProfile.Font = New System.Drawing.Font("Arial", 15.75!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnProfile.ForeColor = System.Drawing.Color.White
+        Me.btnProfile.Location = New System.Drawing.Point(0, 207)
+        Me.btnProfile.Name = "btnProfile"
+        Me.btnProfile.Size = New System.Drawing.Size(130, 45)
+        Me.btnProfile.TabIndex = 60
+        Me.btnProfile.Text = "Profile"
+        Me.btnProfile.UseVisualStyleBackColor = False
         '
-        'Button4
+        'btnLogo
         '
-        Me.Button4.BackColor = System.Drawing.Color.OrangeRed
-        Me.Button4.Font = New System.Drawing.Font("Arial", 20.25!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button4.ForeColor = System.Drawing.Color.White
-        Me.Button4.Location = New System.Drawing.Point(487, 25)
-        Me.Button4.Name = "Button4"
-        Me.Button4.Size = New System.Drawing.Size(162, 50)
-        Me.Button4.TabIndex = 16
-        Me.Button4.Text = "Dashboard"
-        Me.Button4.UseVisualStyleBackColor = False
+        Me.btnLogo.BackColor = System.Drawing.Color.Red
+        Me.btnLogo.Font = New System.Drawing.Font("Microsoft Sans Serif", 12.0!, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnLogo.ForeColor = System.Drawing.Color.White
+        Me.btnLogo.Location = New System.Drawing.Point(728, 12)
+        Me.btnLogo.Name = "btnLogo"
+        Me.btnLogo.Size = New System.Drawing.Size(91, 42)
+        Me.btnLogo.TabIndex = 64
+        Me.btnLogo.Text = "Log out"
+        Me.btnLogo.UseVisualStyleBackColor = False
         '
         'Dashboardform
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(840, 487)
-        Me.Controls.Add(Me.Panel1)
+        Me.Controls.Add(Me.btnLogo)
+        Me.Controls.Add(Me.btnDash)
+        Me.Controls.Add(Me.btnAss)
+        Me.Controls.Add(Me.btnCourse)
+        Me.Controls.Add(Me.btnProfile)
         Me.Controls.Add(Me.ListBox3)
-        Me.Controls.Add(Me.Label3)
+        Me.Controls.Add(Me.lblFee)
         Me.Controls.Add(Me.ListBox2)
         Me.Controls.Add(Me.ListBox1)
-        Me.Controls.Add(Me.Label2)
-        Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.lblActivities)
+        Me.Controls.Add(Me.lblNotice)
         Me.Controls.Add(Me.MonthCalendar1)
+        Me.Controls.Add(Me.PictureBox1)
         Me.Name = "Dashboardform"
         Me.Text = "Dashboardform"
-        Me.Panel1.ResumeLayout(False)
+        CType(Me.PictureBox1, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
         Me.PerformLayout()
 
     End Sub
 
     Friend WithEvents ListBox3 As ListBox
-    Friend WithEvents Label3 As Label
+    Friend WithEvents lblFee As Label
     Friend WithEvents ListBox2 As ListBox
     Friend WithEvents ListBox1 As ListBox
-    Friend WithEvents Label2 As Label
-    Friend WithEvents Label1 As Label
+    Friend WithEvents lblActivities As Label
+    Friend WithEvents lblNotice As Label
     Friend WithEvents MonthCalendar1 As MonthCalendar
-    Friend WithEvents Panel1 As Panel
-    Friend WithEvents Button2 As Button
-    Friend WithEvents Button1 As Button
-    Friend WithEvents Button6 As Button
-    Friend WithEvents Button3 As Button
-    Friend WithEvents Button4 As Button
+    Friend WithEvents PictureBox1 As PictureBox
+    Friend WithEvents btnDash As Button
+    Friend WithEvents btnAss As Button
+    Friend WithEvents btnCourse As Button
+    Friend WithEvents btnProfile As Button
+    Friend WithEvents btnLogo As Button
 End Class
