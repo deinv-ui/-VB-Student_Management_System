@@ -1,0 +1,13 @@
+D:\Git\VB_StudentManagementSystem\Project2\bin\Debug\Project2.exe.config
+D:\Git\VB_StudentManagementSystem\Project2\bin\Debug\Project2.exe
+D:\Git\VB_StudentManagementSystem\Project2\bin\Debug\Project2.pdb
+D:\Git\VB_StudentManagementSystem\Project2\bin\Debug\Project2.xml
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.vbproj.AssemblyReference.cache
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.vbproj.SuggestedBindingRedirects.cache
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.Form1.resources
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.Resources.resources
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.vbproj.GenerateResource.cache
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.vbproj.CoreCompileInputs.cache
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.exe
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.xml
+D:\Git\VB_StudentManagementSystem\Project2\obj\Debug\Project2.pdb
